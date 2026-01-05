@@ -31,6 +31,9 @@ public class Client {
     System.out.println("Please Insert Second Image type element");
     String S4 = sc.nextLine();
     editor.addImage(S4);
+     System.out.println("Please Insert Second Image type element");
+    String S5 = sc.nextLine();
+    editor.addImage(S5);
     sc.close();
 
     System.out.println(editor.renderDocument());
