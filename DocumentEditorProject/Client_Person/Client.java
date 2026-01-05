@@ -34,6 +34,18 @@ public class Client {
     sc.close();
 
     System.out.println(editor.renderDocument());
+    
+    for(int i = 0 ; i<5 ; i++)
+    {
+      System.out.println(S1);
+      System.out.println("-----------------Next---------------------------------");
+      System.out.println(S2);
+      System.out.println("Next2----------------------------------------------------");
+      System.out.println(S3);
+      System.out.println("Next3-----------------------------------------------------");
+      System.out.println(S4);
+    }
+
 
     editor.saveDocument();
 
