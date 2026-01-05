@@ -17,6 +17,7 @@ public class Client {
     String S1 = sc.nextLine();
     editor.addText(S1);
     System.out.println("Please Enter Second String");
+    System.out.println();
     String S2 = sc.nextLine();
     editor.addText(S2);
     System.out.println();
@@ -27,6 +28,9 @@ public class Client {
     System.out.println("Please Insert Image type element");
     String S3 = sc.nextLine();
     editor.addImage(S3);
+    System.out.println("Please Insert Second Image type element");
+    String S4 = sc.nextLine();
+    editor.addImage(S4);
     sc.close();
 
     System.out.println(editor.renderDocument());
